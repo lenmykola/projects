@@ -1,0 +1,102 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+main{
+    width: 90%;
+    height: 85vh;
+    margin-left: auto;
+    margin-top: 1%;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    /* margin-bottom: -7vh; */
+}
+main div{
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    user-select:none;
+}
+.menu{
+    height: 60vh;
+    width: 10%;
+    box-shadow: 0px 0px 5px black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 5vh;
+}
+#m1{
+    border-radius: 20% 0% 0% 20%;
+}
+#m2{
+    border-radius: 0% 20% 20% 0%;
+    z-index: 0;
+}
+canvas{
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 0px 0px 5px black;
+    z-index: 1;
+}
+#canva{
+    z-index: 1;
+}
+.buttons{
+    margin-top: 25%;
+    padding: 10%;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 5%;
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+}
+.clicked{
+    box-shadow: 0px 0px 5px black inset;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#settings{
+    margin: auto;
+    width: 40%;
+    height: 9vh;
+    background-color: white;
+    border-radius: 0% 0% 20% 20%;
+    box-shadow: 0px 1px 2px black;
+    z-index: 5;
+}
+#settings input, #settings output{
+    margin-top: 1.5%;
+}
+#size{
+    margin-left: 8%;
+    width: 35%;
+    float: left;
+}
+#color{
+    width: 35%;
+    float: right;
+    margin-right: 8%;
+    outline: none;
+    border: none;
+}
+#color:focus{
+    outline: none;
+}
+#textInp{
+    margin-left: 5%;
+    width: 90%;
+}
+#image input{
+    opacity: 0;
+    height: 150%;
+    width: 150%;
+    margin: -30%;
+}
