@@ -1,0 +1,90 @@
+body, .conts, #innerFlexBox{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+}
+body{
+    justify-content: space-between;
+}
+#cont1 div, #header, #innerFlexBox span, #cont3 div, #cont4 div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cont1{
+   width: 40%;
+    background-color: rgb(30,144,255);
+    height: max-content;
+}
+#cont1 div{
+    width: 8%;
+    font-size: 16pt;
+    height: 45px;
+    margin: 1%;
+    background-color: rgb(241,241,241);
+}
+#cont2{
+    width: 50%;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    border-radius: 5px;
+}
+#header{
+    width: 100%;
+    color: white;
+    border-radius: 5px 5px 0 0;
+    font-weight: bold;
+    background-color: rgb(128,0,128);
+}
+.articles{
+    background-color: aqua;
+    margin: 1%;
+    padding: 1%;
+    line-height: 100%;
+}
+#firArticle, #secArticle{
+    width: 25%;
+}
+.articles:last-of-type{
+    width: 38%;
+}
+#innerFlexBox{
+    height: 9vh;
+    align-items: space-between;
+    justify-content: space-between;
+}
+#innerFlexBox span{
+    width: 22%;
+    height: 3vh;
+    background-color: rgb(241,241,241);
+    box-shadow: 0px 0px 2px black inset;
+    border-radius: 2px;
+}
+#innerFlexBox span:last-child{
+    width: 100%;
+    background-color: rgb(241,241,241);
+}
+.articles span:not(#innerFlexBox span){
+    font-size: 11pt;
+}
+#cont3, #cont4{
+    margin-top: 3vh;
+    width: 30%;
+}
+#cont3 div, #cont4 div{
+    width: 50%;
+    height: 5vh;
+    margin: 0;
+    color: white;
+}
+#cont3 div:nth-child(1), #cont4 div:nth-child(1){
+background-color: red;
+}
+#cont3 div:nth-child(2), #cont4 div:nth-child(2){
+    background-color: rgb(154,205,50);
+}
+#cont3 div:nth-child(3), #cont4 div:nth-child(3){
+    background-color: rgb(70,130,180);
+}
+#cont4{
+    flex-flow: row wrap-reverse;
+}
