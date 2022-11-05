@@ -1,0 +1,27 @@
+.cont{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+}
+.cont:last-of-type{
+    height: 200px;
+}
+.btns{
+    width: 100px;
+    height: 75px;
+}
+.blocks{
+    width: 200px;
+    height: 100px;
+    margin-left: 5%;
+}
+#changeable{
+    background-color: black;
+}
+#invisible{
+    background-color: red;
+    opacity: 0;
+}
+#rotating{
+    background-color: blue;
+}
