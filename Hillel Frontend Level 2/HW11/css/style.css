@@ -10,7 +10,7 @@ body{
     flex-wrap: wrap;
 }
 
-div{
+body div{
    flex-basis: 15%;
    flex-grow: 1;
    height: 3.33vh;
